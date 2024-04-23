@@ -16,7 +16,8 @@
     "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.4.4",
     "@umijs/max": "^4.1.9",
-    "antd": "^5.4.0"
+    "antd": "^5.4.0",
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
@@ -28,5 +29,5 @@
     "prettier-plugin-packagejson": "^2.4.3",
     "typescript": "^5.0.3"
   },
-  "homepage": "https://github.com/xastbenchmark/xastbenchmark.github.io"
+  "homepage": "https://xastbenchmark.github.io/xastbenchmark.github.io"
 }
