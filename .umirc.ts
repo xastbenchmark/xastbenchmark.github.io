@@ -6,7 +6,9 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
-
+  history: { type: "hash" },
+  base: "/xastbenchmark.github.io",
+  publicPath: "/xastbenchmark.github.io/",
   layout: {
     title: '@umijs/max',
   },
@@ -29,4 +31,3 @@ export default defineConfig({
   ],
   npmClient: 'pnpm',
 });
-
