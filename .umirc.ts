@@ -6,8 +6,8 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
-  base: "/xastbenchmark.github.io",
-  publicPath: "/xastbenchmark.github.io/",
+  // base: "/xastbenchmark.github.io",
+  // publicPath: "/xastbenchmark.github.io/",
   layout: {
     title: '@umijs/max',
   },
