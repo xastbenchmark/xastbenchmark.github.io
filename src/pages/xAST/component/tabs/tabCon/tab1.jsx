@@ -16,6 +16,7 @@ const Tab1 = () => {
                             <div className='text1'>定期组织社区例会并公开社区相关事项决议</div>
                             <div className='text1'>社区荣誉评选（如评选优秀贡献者等）</div>
                             <div className='text1'>促进与开源组织和其他开源项目间的合作</div>
+                            <div className='line'></div>
                             <div style={{ fontSize: "14px", color: "rgba(0,0,0,0.45)" }}>如何成为PMC</div>
                             <div className='text1'>目前PMC处于筹备状态，待后续项目成熟后将成立正式的PMC</div>
                         </div>
@@ -30,7 +31,6 @@ const Tab1 = () => {
 const Tab2 = () => {
     return (
         <>
-            <div style={{ fontWeight: "400", color: "rgba(0, 0, 0, 0.85)", marginTop: '29px', marginBottom: "12px" }}>考虑到xAST评价体系作为技术标准的特殊性，任何涉及评价项和代码的提交都不允许单个用户的独立操作。</div>
             <div className="tab2-container">
                 <div className="tab2-module">
                     <div className="tab2-title">维护者（Maintainers）</div>
@@ -41,8 +41,8 @@ const Tab2 = () => {
                         <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
                         <div className='text1'>评价项和Benchmark修改的投票权，一人一票，超</div>
                         <div className='textWithout'> 过1/2 Maintainers同意的才可以最终合并</div>
-                        <div className='text1'> 提名Active Contributors成为Maintainers
-                        </div>
+                        <div className='text1'> 提名Active Contributors成为Maintainers</div>
+                        <div className='line'></div>
                         <div className='howTo'>如何成为Maintainers，需要同时满足以下条件：</div>
                         <div className='text1'>成为Active Contributors至少2个月以上</div>
                         <div className='text1'>至少2个重大PR被项目合并</div>
@@ -61,6 +61,7 @@ const Tab2 = () => {
                         <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
                         <div className='text1'> Triage，操作issue 和 pr，例如打 label、分配</div>
                         <div className='text1'>可参与社区荣誉评选</div>
+                        <div className='line'></div>
                         <div className='howTo'>如何成为Active Contributors，需要同时满足以下条件：</div>
                         <div className='text1'>成为Active Contributors至少2个月以上</div>
                         <div className='textWithout'>至少一个重大PR（由Maintainers投票时确认，一般</div>
@@ -76,6 +77,7 @@ const Tab2 = () => {
                         <div className='text1'>帮助改进文档</div>
                         <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
                         <div className='text1'> 提交PR/issue </div>
+                        <div className='line'></div>
                         <div className='howTo'>如何成为Contributors：</div>
                         <div className='text1'>至少提交一个有效PR或者issue</div>
                     </div>
@@ -98,6 +100,7 @@ const Tab3 = () => {
                     <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
                     <div className='text1'>行业年度测评报告的署名权（如有参与）</div>
                     <div className='text1'>优先提供PR渠道资源</div>
+                    <div className='line'></div>
                     <div className='howTo'>如何成为Community Leader，需要同时满足以下条件：</div>
                     <div className='text1'>成为Ambassador超过 2 个月 </div>
                     <div className='text1'>基于评价体系进行测评，对外公开发布优质测评结果（经PMC投票评选确认）1篇以 </div>
@@ -116,6 +119,7 @@ const Tab3 = () => {
                     <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
                     <div className='text1'> 代表社区参与大会宣讲、Meetup分享</div>
                     <div className='text1'>可参与社区荣誉评选</div>
+                    <div className='line'></div>
                     <div className='howTo'>如何成为Ambassador，满足以下任一条件：</div>
                     <div className='text1'>基于评价体系进行测评，并对外公开发布测评报告1篇以上</div>
                     <div className='text1'>在社区活跃超过 1 个月，累计有效答疑超过 10 次</div>
@@ -136,7 +140,7 @@ const Tab4 = () => {
                         <div className='text4'> 社区会议所有感兴趣的社区成员都可以参加</div>
                         <div className='text4'>所有事项的决策都在社区会议中公开进行，但PR合并、优秀评测报告等相关投票只能由有投票权的人参与</div>
                         <div style={{ fontSize: "16px", color: "rgba(0,0,0,0.45)", lineHeight: "44px" }}> PMC（筹）将不定期组织各类社区活动 </div>
-                        <div style={{ fontSize: "16px", color: "rgba(0,0,0,0.45)", lineHeight: "44px" }}>PMC（筹）将以社区名义发布安</div>
+                        <div style={{ fontSize: "16px", color: "rgba(0,0,0,0.45)", lineHeight: "44px" }}>PMC（筹）将以社区名义发布安全工具年度评测报告</div>
                     </div>
                 </div>
             </div>

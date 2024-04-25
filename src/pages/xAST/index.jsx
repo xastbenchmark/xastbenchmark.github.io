@@ -22,7 +22,7 @@ const TopNav = () => {
 
     return (
         <>
-            <div>
+            <div style={{ backgroundColor: "#fff" }}>
                 <nav class="navbar">
                     <div class="content">
                         <a href="https://github.com/alipay/ant-application-security-testing-benchmark" target="_blank" rel="noopener noreferrer"><div class="logo"> </div></a>

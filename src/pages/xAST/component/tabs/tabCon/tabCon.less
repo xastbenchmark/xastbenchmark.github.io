@@ -44,15 +44,22 @@
     }
 }
 
+.line {
+    width: 100%;
+    height: 1px;
+    border-top: 1px rgba(0, 0, 0, 0.06) solid;
+    margin: 12px 0px;
+}
+
 .howTo {
-    margin-top: 10px;
+    // margin-top: 10px;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.45)
 }
 
 .tab2-container {
     width: 1200px;
-    height: 550px;
+    height: fit-content;
     display: flex;
     justify-content: space-between; // 内部模块两边顶格分布
     // align-items: center;
@@ -61,7 +68,7 @@
 .tab2-module {
     background-color: #f5f9ff;
     width: 384px;
-    height: 454px;
+    height: 480px;
     padding: 24px 24px 0px;
     // 更多的样式可以根据需要添加，例如border, background等
 }
@@ -90,7 +97,7 @@
 
 .tab3-container {
     width: 1200px;
-    height: 550px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     // align-items: center;
@@ -101,7 +108,7 @@
     padding-top: 24px;
     background-color: #f5f9ff;
     width: 588px;
-    height: 454px;
+    height: 480px;
     /* 根据需要添加更多样式，如背景色、边框、阴影等 */
 }
 
@@ -124,16 +131,15 @@
 .tab1-container {
     background-color: #f5f9ff;
     width: 1200px;
-    height: 314px;
+    height: fit-content;
 
 }
 
 /* 中间模块样式 */
 .tab1-module {
     padding: 24px 415px 24px 24px;
-    // margin: 24px;
     width: 1200px;
-    height: 314px;
+    height: fit-content;
     /* 根据需要添加背景、边框等样式 */
 }
 
