@@ -144,7 +144,7 @@ const Appscenrios = () => {
                             <img src="/images/03技术名片/04.png" alt="技术4" />
                         </div>
                         <div className={styles.tecTextSection}>
-                            <p>“体验报告”式结果，
+                            <p>“体检报告”式结果，
                                 细粒度可解释</p>
                         </div>
                     </div>

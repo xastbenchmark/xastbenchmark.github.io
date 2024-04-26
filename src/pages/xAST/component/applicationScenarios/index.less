@@ -120,42 +120,6 @@
 }
 
 
-// .avatar-container {
-//     margin: 30px auto 30px;
-//     display: flex;
-//     justify-content: center;
-//     /* 水平居中 */
-//     align-items: center;
-//     /* 垂直居中 */
-//     width: 1200px;
-//     height: 40px;
-//     /* 示例背景色, 可以根据需要修改 */
-//     padding: 0;
-//     /* 如果需要可以添加内边距 */
-//     box-sizing: border-box;
-//     /* 边框和内边距将包含在宽度和高度内 */
-// }
-
-// .avatar-image {
-//     width: 40px;
-//     height: 40px;
-//     border-radius: 50%;
-//     /* 创建圆形效果 */
-//     object-fit: cover;
-//     /* 确保图片按比例填充 */
-//     margin: 0 1px;
-//     /* 每侧1px的外边距得到2px的间隔 */
-// }
-
-// /* 为了保险起见，如果不希望第一个和最后一个元素有间隔，可以添加以下代码 */
-// .avatar-container :first-child {
-//     margin-left: 0;
-// }
-
-// .avatar-container :last-child {
-//     margin-right: 0;
-// }
-
 
 .huoban-container {
     margin: auto;
@@ -165,7 +129,6 @@
     flex-direction: column;
     justify-content: space-between;
     /* 维持三行之间均匀间隔 */
-    /* 根据需要，可以添加上、下内边距以适应内容 */
 }
 
 .huoban-row {
@@ -218,9 +181,7 @@
     /* 使左边部分充满整个容器的高度 */
 }
 
-.footer-logo {
-    /* 根据需要设置logo图片的具体样式，确保图片不超出容器高度 */
-}
+.footer-logo {}
 
 .footer-email {
     font-size: 16px;
@@ -236,29 +197,20 @@
     /* 假设icon和地址之间有10px间隔 */
 }
 
-.footer-email-address {
-    /* 根据需要调整邮箱地址的样式 如字体大小、颜色等 */
-}
+.footer-email-address {}
 
 .footer-note {
-    /* 根据需要设置额外的备注信息样式 */
     margin-top: 20px;
-    /* 增加较大的顶部间距，根据实际情况调整 */
 }
 
 .footer-right {
-    /* 如果需要，可设置二维码图片间的间隔 */
     display: flex;
 }
 
 .footer-qrcode {
-    /* 设置二维码图片的大小 */
     margin-right: 24px;
-    /* 假设两个二维码之间有24px间隔 */
     width: 136px;
-    /* 假设二维码的宽度是80px */
     height: 170px;
-    /* 假设二维码的高度是80px */
 }
 
 .footer-qrcode:last-child {
@@ -297,20 +249,20 @@
 .scene-text {
     position: relative;
     display: inline-block;
-    font-size: 36px; // 设置字体大小
+    font-size: 36px;
     // text-align: ;
 
     // 定义::before伪元素的样式
     &::before {
         content: "";
         position: absolute;
-        width: 60px; // 图片宽度, 根据实际情况调整
-        height: 20px; // 图片高度, 根据实际情况调整
-        background-image: url('/images/左.png'); // 图片路径, 左侧图片
-        background-size: cover; // 或者使用具体尺寸
+        width: 60px;
+        height: 20px;
+        background-image: url('/images/左.png');
+        background-size: cover;
         background-repeat: no-repeat;
-        left: -75px; // 根据实际需求和布局调整
-        bottom: 3px; // 根据实际需求和布局调整，使图片出现在文字的左下角
+        left: -75px;
+        bottom: 3px;
     }
 
     // 定义::after伪元素的样式
@@ -319,12 +271,12 @@
         position: absolute;
         width: 60px; // 同上
         height: 20px; // 同上
-        background-image: url('/images/右.png'); // 图片路径, 右侧图片
-        background-size: cover; // 或者使用具体尺寸
+        background-image: url('/images/右.png');
+        background-size: cover;
         background-repeat: no-repeat;
-        right: -75px; // 根据实际需求和布局调整
-        top: 3px; // 根据实际需求和布局调整，使图片出现在文字的右上角
-        left: auto; // 重置左侧位置，确保正确对齐
+        right: -75px;
+        top: 3px;
+        left: auto;
     }
 }
 
@@ -398,7 +350,7 @@
 }
 
 .appTextSection {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* 技术名片部分 */
@@ -437,7 +389,6 @@
     width: 72px;
     height: 72px;
     margin-bottom: 24px;
-    /* 根据需要调整 */
 }
 
 .tecTextSection {

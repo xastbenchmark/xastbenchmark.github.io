@@ -18,7 +18,7 @@ const Tab1 = () => {
                             <div className='text1'>促进与开源组织和其他开源项目间的合作</div>
                             <div className='line'></div>
                             <div style={{ fontSize: "14px", color: "rgba(0,0,0,0.45)" }}>如何成为PMC</div>
-                            <div className='text1'>目前PMC处于筹备状态，待后续项目成熟后将成立正式的PMC</div>
+                            <div className='text3'>目前PMC处于筹备状态，待后续项目成熟后将成立正式的PMC</div>
                         </div>
                     </div>
                 </div>
@@ -44,29 +44,31 @@ const Tab2 = () => {
                         <div className='text1'> 提名Active Contributors成为Maintainers</div>
                         <div className='line'></div>
                         <div className='howTo'>如何成为Maintainers，需要同时满足以下条件：</div>
-                        <div className='text1'>成为Active Contributors至少2个月以上</div>
-                        <div className='text1'>至少2个重大PR被项目合并</div>
-                        <div className='text1'>至少一位Maintainers提名，所有Maintainers投</div>
-                        <div className='textWithout'>票，获得超过1/2 Maintainers的同意</div>
+                        <div className='text3'>成为Active Contributors至少2个月以上</div>
+                        <div className='text3'>至少2个重大PR被项目合并</div>
+                        <div className='text3'>至少一位Maintainers提名，所有Maintainers投</div>
+                        <div className='textWithout1'>票，获得超过1/2 Maintainers的同意</div>
                     </div>
                 </div>
                 <div className="tab2-module">
-                    <div className="tab2-title">活跃贡献者（Active Contributors）</div>
-                    <div className="tab2-content">
-                        <div className='littleHeadLine'><img src="/images/04社区组织架构\职责.png" /> 职责：</div>
-                        <div className='text1'>参与社区咨询支持</div>
-                        <div className='text1'>积极响应社区指派的 Issue 及 PR</div>
-                        <div className='text1'>帮忙回复 issue/pr，triage（把 issue 分配给对应模</div>
-                        <div className='textWithout'>块的负责人</div>
-                        <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
-                        <div className='text1'> Triage，操作issue 和 pr，例如打 label、分配</div>
-                        <div className='text1'>可参与社区荣誉评选</div>
-                        <div className='line'></div>
-                        <div className='howTo'>如何成为Active Contributors，需要同时满足以下条件：</div>
-                        <div className='text1'>成为Active Contributors至少2个月以上</div>
-                        <div className='textWithout'>至少一个重大PR（由Maintainers投票时确认，一般</div>
-                        <div className='text1'>至少贡献10个case以上）被项目合并</div>
-                        <div className='text1'> 有意愿一起维护社区</div>
+                    <div style={{ letterSpacing: "-.04em" }}>
+                        <div className="tab2-title" style={{ marginLeft: "3px" }}>活跃贡献者（Active Contributors）</div>
+                        <div className="tab2-content">
+                            <div className='littleHeadLine'><img src="/images/04社区组织架构\职责.png" /> 职责：</div>
+                            <div className='text1'>参与社区咨询支持</div>
+                            <div className='text1'>积极响应社区指派的 Issue 及 PR</div>
+                            <div className='text1'>帮忙回复 issue/pr，triage（把 issue 分配给对应模</div>
+                            <div className='textWithout'>块的负责人</div>
+                            <div className='littleHeadLine'><img src="/images/04社区组织架构\权益.png" /> 权益：</div>
+                            <div className='text1'> Triage，操作issue 和 pr，例如打 label、分配</div>
+                            <div className='text1'>可参与社区荣誉评选</div>
+                            <div className='line'></div>
+                            <div className='howTo'>如何成为Active Contributors，需要同时满足以下条件：</div>
+                            <div className='text3'>成为Active Contributors至少2个月以上</div>
+                            <div className='text3'>至少一个重大PR（由Maintainers投票时确认，一般</div>
+                            <div className='textWithout1'>至少贡献10个case以上）被项目合并</div>
+                            <div className='text3'> 有意愿一起维护社区</div>
+                        </div>
                     </div>
                 </div>
                 <div className="tab2-module">
@@ -79,7 +81,7 @@ const Tab2 = () => {
                         <div className='text1'> 提交PR/issue </div>
                         <div className='line'></div>
                         <div className='howTo'>如何成为Contributors：</div>
-                        <div className='text1'>至少提交一个有效PR或者issue</div>
+                        <div className='text3'>至少提交一个有效PR或者issue</div>
                     </div>
                 </div>
             </div>
@@ -102,11 +104,11 @@ const Tab3 = () => {
                     <div className='text1'>优先提供PR渠道资源</div>
                     <div className='line'></div>
                     <div className='howTo'>如何成为Community Leader，需要同时满足以下条件：</div>
-                    <div className='text1'>成为Ambassador超过 2 个月 </div>
-                    <div className='text1'>基于评价体系进行测评，对外公开发布优质测评结果（经PMC投票评选确认）1篇以 </div>
-                    <div className='textWithout'>上或者代表社区参与大会宣讲/Meetup分享 1 次以上</div>
-                    <div className='text1'>至少一位Community Leader提名，由Community Leader投票，获得超过1/2</div>
-                    <div className='textWithout'>Community Leader的同意</div>
+                    <div className='text3'>成为Ambassador超过 2 个月 </div>
+                    <div className='text3'>基于评价体系进行测评，对外公开发布优质测评结果（经PMC投票评选确认）1篇以 </div>
+                    <div className='textWithout1'>上或者代表社区参与大会宣讲/Meetup分享 1 次以上</div>
+                    <div className='text3'>至少一位Community Leader提名，由Community Leader投票，获得超过1/2</div>
+                    <div className='textWithout1'>Community Leader的同意</div>
                 </div>
             </div>
             <div className="tab3-module">
@@ -121,8 +123,8 @@ const Tab3 = () => {
                     <div className='text1'>可参与社区荣誉评选</div>
                     <div className='line'></div>
                     <div className='howTo'>如何成为Ambassador，满足以下任一条件：</div>
-                    <div className='text1'>基于评价体系进行测评，并对外公开发布测评报告1篇以上</div>
-                    <div className='text1'>在社区活跃超过 1 个月，累计有效答疑超过 10 次</div>
+                    <div className='text3'>基于评价体系进行测评，并对外公开发布测评报告1篇以上</div>
+                    <div className='text3'>在社区活跃超过 1 个月，累计有效答疑超过 10 次</div>
                 </div>
             </div>
         </div>
@@ -136,11 +138,11 @@ const Tab4 = () => {
             <div className='tab4Container'>
                 <div className="textArea">
                     <div>
-                        <div style={{ fontSize: "16px", color: "rgba(0,0,0,0.45)", lineHeight: "44px" }}>PMC（筹）根据项目进展，定期组织社区会议，目前默认一个月一次</div>
+                        <div style={{ fontSize: "14px", color: "rgba(0,0,0,0.65)", lineHeight: "28px" }}>PMC（筹）根据项目进展，定期组织社区会议，目前默认一个月一次</div>
                         <div className='text4'> 社区会议所有感兴趣的社区成员都可以参加</div>
                         <div className='text4'>所有事项的决策都在社区会议中公开进行，但PR合并、优秀评测报告等相关投票只能由有投票权的人参与</div>
-                        <div style={{ fontSize: "16px", color: "rgba(0,0,0,0.45)", lineHeight: "44px" }}> PMC（筹）将不定期组织各类社区活动 </div>
-                        <div style={{ fontSize: "16px", color: "rgba(0,0,0,0.45)", lineHeight: "44px" }}>PMC（筹）将以社区名义发布安全工具年度评测报告</div>
+                        <div style={{ fontSize: "14px", color: "rgba(0,0,0,0.65)", lineHeight: "28px" }}> PMC（筹）将不定期组织各类社区活动 </div>
+                        <div style={{ fontSize: "14px", color: "rgba(0,0,0,0.65)", lineHeight: "28px" }}>PMC（筹）将以社区名义发布安全工具年度评测报告</div>
                     </div>
                 </div>
             </div>

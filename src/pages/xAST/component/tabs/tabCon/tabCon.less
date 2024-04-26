@@ -1,6 +1,20 @@
 .text1 {
     font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.text3 {
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.45);
+
+    &::before {
+        content: '•';
+        display: inline-block;
+        margin-right: 0.5em;
+        font-size: 1em;
+        line-height: 1;
+        vertical-align: middle;
+    }
 }
 
 .text1::before {
@@ -19,7 +33,7 @@
 .tab4Container {
     // padding: 24px;
     width: 1200px;
-    height: 256px;
+    height: fit-content;
     background-color: #f5f9ff;
 }
 
@@ -30,9 +44,9 @@
 }
 
 .text4 {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.45);
-    line-height: 44px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 28px;
 
     &::before {
         content: '•';
@@ -70,13 +84,11 @@
     width: 384px;
     height: 480px;
     padding: 24px 24px 0px;
-    // 更多的样式可以根据需要添加，例如border, background等
 }
 
 .tab2-title {
     font-size: 16px;
     font-weight: 700;
-    // 根据需要可以添加更多的样式
 }
 
 .tab2-content {
@@ -85,10 +97,15 @@
     height: 349px;
     line-height: 28px;
     font-size: 14px;
-    // 如果需要滚动条可以添加overflow:auto;
 }
 
 .textWithout {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    margin-left: 14px;
+}
+
+.textWithout1 {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.45);
     margin-left: 14px;
@@ -109,7 +126,6 @@
     background-color: #f5f9ff;
     width: 588px;
     height: 480px;
-    /* 根据需要添加更多样式，如背景色、边框、阴影等 */
 }
 
 .tab3-title {
@@ -152,7 +168,7 @@
 /* 正文容器样式 */
 .tab1-content {
     margin-top: 12px;
-    width: 542px;
+    width: 560px;
     line-height: 28px;
     font-size: 14px;
     /* 如果正文内容超过容器高度，可以设置超出部分如何显示 */
