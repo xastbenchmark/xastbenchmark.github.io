@@ -9,7 +9,7 @@ export default defineConfig({
   // base: "/xastbenchmark.github.io",
   // publicPath: "/xastbenchmark.github.io/",
   layout: {
-    title: '@umijs/max',
+    title: "xAST评价体系",
   },
   routes: [
     {
@@ -17,7 +17,7 @@ export default defineConfig({
       redirect: '/homePage',
     },
     {
-      name: 'xAST测试',
+      // name: 'xast评价体系',
       path: '/homePage',
       component: './xAST',
       // 不展示顶栏
