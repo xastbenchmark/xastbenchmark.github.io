@@ -12,13 +12,13 @@ export default defineConfig({
     title: "xAST评价体系",
   },
   routes: [
-    {
-      path: '/',
-      redirect: '/homePage',
-    },
+    // {
+    //   path: '/',
+    //   redirect: '/homePage',
+    // },
     {
       // name: 'xast评价体系',
-      path: '/homePage',
+      path: '/',
       component: './xAST',
       // 不展示顶栏
       headerRender: false,
