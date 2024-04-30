@@ -283,9 +283,9 @@ const Appscenrios = () => {
                         </div>
                         <div class="footer-note">
                             <a className="linkBottom" href="#" >社区介绍</a>   <Divider type="vertical" style={{ backgroundColor: "#fff" }} />
-                            <a className="linkBottom" href="https://www.yuque.com/u22090306/nxa79b" target="_blank" rel="noopener noreferrer">社区活动</a>
+                            <a className="linkBottom" href="https://www.yuque.com/u22090306/nxa79b/nkc5ndg829qbo8xk" target="_blank" rel="noopener noreferrer">社区活动</a>
                             <Divider type="vertical" style={{ backgroundColor: "#fff" }} />
-                            <a className="linkBottom" href="https://www.yuque.com/u22090306/nxa79b" target="_blank" rel="noopener noreferrer">评测报告</a>
+                            <a className="linkBottom" href="https://www.yuque.com/u22090306/nxa79b/pi2sgsk3y3e2qrvq" target="_blank" rel="noopener noreferrer">评测报告</a>
                         </div>
                     </div>
                     <div class="footer-right">

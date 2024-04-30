@@ -28,8 +28,8 @@ const TopNav = () => {
                         <a href="https://github.com/alipay/ant-application-security-testing-benchmark" target="_blank" rel="noopener noreferrer"><div class="logo"> </div></a>
                         <ul class="nav-links">
                             <li><a /* href="/page1" */>社区介绍</a></li>
-                            <li><a href="https://www.yuque.com/u22090306/nxa79b" target='_blank'>社区活动</a></li>
-                            <li><a href="https://www.yuque.com/u22090306/nxa79b" target='_blank'>评测报告</a></li>
+                            <li><a href="https://www.yuque.com/u22090306/nxa79b/nkc5ndg829qbo8xk" target='_blank'>社区活动</a></li>
+                            <li><a href="https://www.yuque.com/u22090306/nxa79b/pi2sgsk3y3e2qrvq" target='_blank'>评测报告</a></li>
                         </ul>
                         <div className="git-icon"><a href='https://github.com/alipay/ant-application-security-testing-benchmark' target='_blank'><img src="/images/01头部/github.png" /></a></div>
                         <div className="language-icon"><img src={languageImg[currentLanguage]} alt="" /></div>
