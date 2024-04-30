@@ -63,8 +63,8 @@ const Tab2 = () => {
                             <div className='text1'> Triage，操作issue 和 pr，例如打 label、分配</div>
                             <div className='text1'>可参与社区荣誉评选</div>
                             <div className='line'></div>
-                            <div className='howTo'>如何成为Contributors，需要同时满足以下条件：</div>
-                            <div className='text3'>成为Active Contributors至少2个月以上</div>
+                            <div className='howTo'>如何成为Active Contributors，需要同时满足以下条件：</div>
+                            <div className='text3'>成为Contributors至少2个月以上</div>
                             <div className='text3'>至少一个重大PR（由Maintainers投票时确认，一般</div>
                             <div className='textWithout1'>至少贡献10个case以上）被项目合并</div>
                             <div className='text3'> 有意愿一起维护社区</div>
